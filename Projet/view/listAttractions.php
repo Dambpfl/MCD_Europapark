@@ -14,7 +14,7 @@
                     <p class="capacite">Capacité : <?= $listAttraction['capaciteMax']; ?> personnes</p>
                     <p class="intensite">Intensité : <?= $listAttraction['nomIntensite']; ?></p>
                     <p class="categorie">Catégorie : <?= $listAttraction['nomCategorie']; ?></p>
-                    <p class="nom"><?= $listAttraction['description']; ?></p>
+                    <p class="description">Description :<br> <?= $listAttraction['description']; ?></p>
                 </a>
             </div>
         <?php } ?>

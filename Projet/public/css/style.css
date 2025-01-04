@@ -1,0 +1,32 @@
+.attraction-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.attraction a{
+    text-decoration: none;
+}
+
+.attraction {
+    padding: 15px;
+    background-color: peachpuff;
+    height: 400px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.nom,
+.duree,
+.capacite,
+.intensite,
+.categorie,
+.description {
+    color: black;
+}
+
+.nom {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}

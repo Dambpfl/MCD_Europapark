@@ -9,10 +9,9 @@
         <?php foreach ($listAvis as $avis) { ?>
             <div class="avis">           
                     <p class="visiteur"><?= $avis['nomVisiteur']; ?></p>
-                    <p class="visiteur"><?= $avis['commentaire']; ?></p>
-                    <p class="visiteur"><?= $avis['note']; ?>/10</p>
-                    <p class="visiteur"><?= $avis['dateAvis']; ?></p>
-
+                    <p class="commentaire"><?= $avis['commentaire']; ?></p>
+                    <p class="note"><?= $avis['note']; ?>/10</p>
+                    <p class="dateAvis"><?= $avis['dateAvis']; ?></p>
             </div>
         <?php } ?>
     </div>    
