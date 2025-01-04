@@ -14,7 +14,7 @@ if(isset($_GET["action"])){
     switch ($_GET["action"]) {
 
         case "listAttractions" : $ctrlEuropapark->listAttractions(); break;
-        case "detailsAttraction" :  $ctrlEuropapark->detailsAttraction(); break;
+        case "listAvis" :  $ctrlEuropapark->listAvis($id); break;
     }
 }
 
